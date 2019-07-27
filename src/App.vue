@@ -1,14 +1,13 @@
 <template>
   <div id="app">
-   现在项目开始了
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'app'
-}
+  name: "app"
+};
 </script>
 
 <style lang="less">
